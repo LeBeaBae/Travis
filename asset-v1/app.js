@@ -87,12 +87,18 @@ var app = new function() {
         sound: "bonus-terror",
         aspire: "aspire-terror"
     }, {
+        name: "Terror",
+        src: "b1-terror-hb.mp4",
+        code: "1,2,6,8,13",
+        sound: "bonus-terror-inst",
+        aspire: "aspire-terror"
+    }, /*{
         name:"Time",
         src:"b1-terror-hb.mp4",
         code:"4,5,6,9,20",
         sound:"bonus-terror",
         aspire:"aspire-time"
-    }];
+    }*/];
  	for (var n = 0, o = this.animearray.length; n < o; n++) {
         var a = this.animearray[n].name;
         this.animearray[n].soundA = a + "_a", this.animearray[n].soundB = this.animearray[n].uniqsnd ? a + "_a" : a + "_b", this.animearray[n].anime = a + "-sprite.png", this.animearray[n].animeData = a + ".json"
